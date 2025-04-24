@@ -1,0 +1,15 @@
+.header .logo img {
+    max-height: 50px;
+    margin-right: 8px;
+}
+
+.logo img {
+    border: 3px solid var(--nav-color);; /* White border */
+    border-radius: 50%; /* Makes the image circular */
+    padding: 2px; /* Optional: inner space between image and border */
+    background-color: transparent;
+    width: 80px; /* Adjust width if needed */
+    height: 80px; /* Adjust height to match width for perfect circle */
+    object-fit: cover; /* Ensures image fits inside the circle */
+  }
+  
