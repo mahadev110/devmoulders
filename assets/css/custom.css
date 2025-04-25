@@ -23,3 +23,13 @@
    
     max-width: 120%;
   }
+
+  .footer .footer-contact p {   
+    color: 
+color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.footer .footer-about p {   
+  color: 
+color-mix(in srgb, var(--default-color), transparent 30%);
+}

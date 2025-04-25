@@ -26,6 +26,9 @@
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
@@ -89,24 +92,50 @@
 
     <main class="main">
       <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
-
-        <div class="container d-flex flex-column align-items-center">
-          <h2 data-aos="fade-up" data-aos-delay="100">
-            Plastic Injection Moulded Parts
-          </h2>
-          <p data-aos="fade-up" data-aos-delay="200">
-            We specialise in Custom Plastic Injection Moulding, Power Cords and
-            Wiring Harness. We provide services for industries including
-            Electronics, Medical and Consumer Products.
-          </p>
-          <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+      <section id="hero" class="hero section dark-background" style="background: url('assets/img/hero-bg.jpg') center/cover no-repeat; min-height: 100vh;">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+      
+            <div class="carousel-item active">
+              <div class="container text-center">
+                <h2 data-aos="fade-up" data-aos-delay="100">Plastic Injection Moulded Parts</h2>
+                <p data-aos="fade-up" data-aos-delay="200">We specialise in Custom Plastic Injection Moulding, Power Cords and Wiring Harness.</p>
+                <a href="#about" class="btn-get-started mt-3" data-aos="fade-up" data-aos-delay="300">Get Started</a>
+              </div>
+            </div>
+      
+            <div class="carousel-item">
+              <div class="container text-center">
+                <h2 data-aos="fade-up" data-aos-delay="100">Wiring Harness Solutions</h2>
+                <p data-aos="fade-up" data-aos-delay="200">High-quality and reliable wiring harness manufacturing for multiple industries.</p>
+                <a href="#contact" class="btn-get-started mt-3" data-aos="fade-up" data-aos-delay="300">Learn More</a>
+              </div>
+            </div>
+      
+            <div class="carousel-item">
+              <div class="container text-center">
+                <h2 data-aos="fade-up" data-aos-delay="100">Power Cords Manufacturing</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Trusted manufacturer of customizable power cords meeting global standards.</p>
+                <a href="#portfolio" class="btn-get-started mt-3" data-aos="fade-up" data-aos-delay="300">See Our Work</a>
+              </div>
+            </div>
+      
           </div>
+      
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+          
         </div>
       </section>
+      
       <!-- /Hero Section -->
 
       <!-- About Section -->
@@ -404,227 +433,218 @@
       <!-- Features Section -->
       <section id="features" class="features section">
         <div class="container">
-          <ul class="nav nav-tabs row d-flex" data-aos="fade-up" data-aos-delay="100">
+          <ul
+            class="nav nav-tabs row d-flex"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <li class="nav-item col-3">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <a
+                class="nav-link active show"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-1"
+              >
                 <i class="bi bi-pencil-square"></i>
                 <h4 class="d-none d-lg-block">Customized Design</h4>
               </a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-2"
+              >
                 <i class="bi bi-cpu"></i>
                 <h4 class="d-none d-lg-block">Technology Improvement</h4>
               </a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-3"
+              >
                 <i class="bi bi-shield-check"></i>
                 <h4 class="d-none d-lg-block">Quality Inspection</h4>
               </a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-4"
+              >
                 <i class="bi bi-headset"></i>
                 <h4 class="d-none d-lg-block">7/24 Service</h4>
               </a>
             </li>
           </ul>
-      
+
           <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
             <!-- Customized Design -->
             <div class="tab-pane fade active show" id="features-tab-1">
               <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Tailored Engineering Solutions for Every Requirement</h3>
-                  <p class="fst-italic">We specialize in custom designs for plastic moulded components, power cords, and wiring harnesses, crafted to meet specific client applications.</p>
+                  <p class="fst-italic">
+                    We specialize in custom designs for plastic moulded
+                    components, power cords, and wiring harnesses, crafted to
+                    meet specific client applications.
+                  </p>
                   <ul>
-                    <li><i class="bi bi-check2-all"></i> Expertise in engineering-grade plastics including GF Nylon, PC, ABS, PPS, and more.</li>
-                    <li><i class="bi bi-check2-all"></i> Customized grommets, cable ends, and socket types as per industrial specifications.</li>
-                    <li><i class="bi bi-check2-all"></i> Dedicated design support to ensure optimal product performance and durability.</li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Expertise in
+                      engineering-grade plastics including GF Nylon, PC, ABS,
+                      PPS, and more.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Customized grommets,
+                      cable ends, and socket types as per industrial
+                      specifications.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Dedicated design support
+                      to ensure optimal product performance and durability.
+                    </li>
                   </ul>
-                  <p>With in-house moulding and assembly capabilities, we can quickly turn around prototypes and scale up to full production efficiently.</p>
+                  <p>
+                    With in-house moulding and assembly capabilities, we can
+                    quickly turn around prototypes and scale up to full
+                    production efficiently.
+                  </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/design.jpg" class="img-fluid" alt="Customized Design">
+                  <img
+                    src="assets/img/features01.jpg"
+                    class="img-fluid"
+                    alt="Customized Design"
+                  />
                 </div>
               </div>
             </div>
-      
+
             <!-- Technology Improvement -->
             <div class="tab-pane fade" id="features-tab-2">
               <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Driven by Precision and Innovation</h3>
-                  <p class="fst-italic">We continuously upgrade our machinery and processes to deliver world-class manufacturing services.</p>
+                  <p class="fst-italic">
+                    We continuously upgrade our machinery and processes to
+                    deliver world-class manufacturing services.
+                  </p>
                   <ul>
-                    <li><i class="bi bi-check2-all"></i> Equipped with advanced Vertical and Horizontal Injection Moulding Machines.</li>
-                    <li><i class="bi bi-check2-all"></i> State-of-the-art tools for wire processing, crimping, and soldering.</li>
-                    <li><i class="bi bi-check2-all"></i> Commitment to adopting automation for better efficiency and consistency.</li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Equipped with advanced
+                      Vertical and Horizontal Injection Moulding Machines.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> State-of-the-art tools
+                      for wire processing, crimping, and soldering.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Commitment to adopting
+                      automation for better efficiency and consistency.
+                    </li>
                   </ul>
-                  <p>From mould development to final product, our facilities are built to support continuous improvement and technological growth.</p>
+                  <p>
+                    From mould development to final product, our facilities are
+                    built to support continuous improvement and technological
+                    growth.
+                  </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/technology.jpg" class="img-fluid" alt="Technology Improvement">
+                  <img
+                    src="assets/img/features02.jpg"
+                    class="img-fluid"
+                    alt="Technology Improvement"
+                  />
                 </div>
               </div>
             </div>
-      
+
             <!-- Quality Inspection -->
             <div class="tab-pane fade" id="features-tab-3">
               <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Ensuring Excellence with Every Component</h3>
-                  <p class="fst-italic">Quality is embedded into our workflow, starting from raw material testing to final product validation.</p>
+                  <p class="fst-italic">
+                    Quality is embedded into our workflow, starting from raw
+                    material testing to final product validation.
+                  </p>
                   <ul>
-                    <li><i class="bi bi-check2-all"></i> In-house lab with ISI-certified testing facilities for power cords.</li>
-                    <li><i class="bi bi-check2-all"></i> Equipment for CR value testing, high voltage and continuity checks.</li>
-                    <li><i class="bi bi-check2-all"></i> Regular calibration of instruments like micrometers, gauges, and muffle furnaces.</li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> In-house lab with
+                      ISI-certified testing facilities for power cords.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Equipment for CR value
+                      testing, high voltage and continuity checks.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Regular calibration of
+                      instruments like micrometers, gauges, and muffle furnaces.
+                    </li>
                   </ul>
-                  <p>Our stringent quality control processes ensure that each batch meets regulatory standards and customer satisfaction.</p>
+                  <p>
+                    Our stringent quality control processes ensure that each
+                    batch meets regulatory standards and customer satisfaction.
+                  </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/quality.jpg" class="img-fluid" alt="Quality Inspection">
+                  <img
+                    src="assets/img/features03.jpg"
+                    class="img-fluid"
+                    alt="Quality Inspection"
+                  />
                 </div>
               </div>
             </div>
-      
+
             <!-- 7/24 Service -->
             <div class="tab-pane fade" id="features-tab-4">
               <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Always Available, Always Reliable</h3>
-                  <p class="fst-italic">We believe in being responsive and accessible to our customers at all times.</p>
+                  <p class="fst-italic">
+                    We believe in being responsive and accessible to our
+                    customers at all times.
+                  </p>
                   <ul>
-                    <li><i class="bi bi-check2-all"></i> 24/7 technical and production support for critical needs.</li>
-                    <li><i class="bi bi-check2-all"></i> Direct access to our team for design feedback and urgent orders.</li>
-                    <li><i class="bi bi-check2-all"></i> Transparent communication throughout the manufacturing cycle.</li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> 24/7 technical and
+                      production support for critical needs.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Direct access to our team
+                      for design feedback and urgent orders.
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i> Transparent communication
+                      throughout the manufacturing cycle.
+                    </li>
                   </ul>
-                  <p>Our customer-first approach has built long-standing partnerships and trust with clients across industries.</p>
+                  <p>
+                    Our customer-first approach has built long-standing
+                    partnerships and trust with clients across industries.
+                  </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/service.jpg" class="img-fluid" alt="7/24 Service">
+                  <img
+                    src="assets/img/features04.jpeg"
+                    class="img-fluid"
+                    alt="7/24 Service"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
-      
+
       <!-- /Features Section -->
 
       <!-- Services 2 Section -->
-      <section id="services-2" class="services-2 section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>CHECK OUR SERVICES</p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="service-item d-flex position-relative h-100">
-                <i class="bi bi-briefcase icon flex-shrink-0"></i>
-                <div>
-                  <h4 class="title">
-                    <a href="#" class="stretched-link">Lorem Ipsum</a>
-                  </h4>
-                  <p class="description">
-                    Voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi sint occaecati cupiditate non provident
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="service-item d-flex position-relative h-100">
-                <i class="bi bi-card-checklist icon flex-shrink-0"></i>
-                <div>
-                  <h4 class="title">
-                    <a href="#" class="stretched-link">Dolor Sitema</a>
-                  </h4>
-                  <p class="description">
-                    Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat tarad limino ata
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="service-item d-flex position-relative h-100">
-                <i class="bi bi-bar-chart icon flex-shrink-0"></i>
-                <div>
-                  <h4 class="title">
-                    <a href="#" class="stretched-link">Sed ut perspiciatis</a>
-                  </h4>
-                  <p class="description">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="service-item d-flex position-relative h-100">
-                <i class="bi bi-binoculars icon flex-shrink-0"></i>
-                <div>
-                  <h4 class="title">
-                    <a href="#" class="stretched-link">Magni Dolores</a>
-                  </h4>
-                  <p class="description">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-              <div class="service-item d-flex position-relative h-100">
-                <i class="bi bi-brightness-high icon flex-shrink-0"></i>
-                <div>
-                  <h4 class="title">
-                    <a href="#" class="stretched-link">Nemo Enim</a>
-                  </h4>
-                  <p class="description">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-              <div class="service-item d-flex position-relative h-100">
-                <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-                <div>
-                  <h4 class="title">
-                    <a href="#" class="stretched-link">Eiusmod Tempor</a>
-                  </h4>
-                  <p class="description">
-                    Et harum quidem rerum facilis est et expedita distinctio.
-                    Nam libero tempore, cum soluta nobis est eligendi
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Services 2 Section -->
-
+   
       <!-- Testimonials Section -->
       <section id="testimonials" class="testimonials section dark-background">
         <img
@@ -811,8 +831,8 @@
       <section id="portfolio" class="portfolio section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>CHECK OUR PORTFOLIO</p>
+          <h2>Certificates & Policies</h2>
+          <p>CHECK OUR CERTIFICATES</p>
         </div>
         <!-- End Section Title -->
 
@@ -823,7 +843,7 @@
             data-layout="masonry"
             data-sort="original-order"
           >
-            <ul
+            <!-- <ul
               class="portfolio-filters isotope-filters"
               data-aos="fade-up"
               data-aos-delay="100"
@@ -833,7 +853,7 @@
               <li data-filter=".filter-product">Product</li>
               <li data-filter=".filter-branding">Branding</li>
               <li data-filter=".filter-books">Books</li>
-            </ul>
+            </ul> -->
             <!-- End Portfolio Filters -->
 
             <div
@@ -846,26 +866,21 @@
               >
                 <div class="portfolio-content h-100">
                   <img
-                    src="assets/img/portfolio/app-1.jpg"
+                    src="assets/img/certificates/iso-certificate.jpg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="portfolio-info">
-                    <h4>App 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>ISO 9001:2015 Certificate</h4>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
                     <a
-                      href="assets/img/portfolio/app-1.jpg"
+                      href="assets/img/certificates/iso-certificate.jpg"
                       title="App 1"
                       data-gallery="portfolio-gallery-app"
                       class="glightbox preview-link"
                       ><i class="bi bi-zoom-in"></i
                     ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                   
                   </div>
                 </div>
               </div>
@@ -876,26 +891,21 @@
               >
                 <div class="portfolio-content h-100">
                   <img
-                    src="assets/img/portfolio/product-1.jpg"
+                    src="assets/img/certificates/IS1293.png"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="portfolio-info">
-                    <h4>Product 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>ISI Certificate</h4>
+                   
                     <a
-                      href="assets/img/portfolio/product-1.jpg"
+                      href="assets/img/certificates/IS1293.png"
                       title="Product 1"
                       data-gallery="portfolio-gallery-product"
                       class="glightbox preview-link"
                       ><i class="bi bi-zoom-in"></i
                     ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                
                   </div>
                 </div>
               </div>
@@ -906,26 +916,21 @@
               >
                 <div class="portfolio-content h-100">
                   <img
-                    src="assets/img/portfolio/branding-1.jpg"
+                    src="assets/img/certificates/HR-Policy.jpg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="portfolio-info">
-                    <h4>Branding 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>HR Policy</h4>
+                
                     <a
-                      href="assets/img/portfolio/branding-1.jpg"
+                      href="assets/img/certificates/HR-Policy.jpg"
                       title="Branding 1"
                       data-gallery="portfolio-gallery-branding"
                       class="glightbox preview-link"
                       ><i class="bi bi-zoom-in"></i
                     ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                
                   </div>
                 </div>
               </div>
@@ -936,26 +941,21 @@
               >
                 <div class="portfolio-content h-100">
                   <img
-                    src="assets/img/portfolio/books-1.jpg"
+                    src="assets/img/certificates/go-green-policy.jpg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="portfolio-info">
-                    <h4>Books 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>Go Green Policy</h4>
+                    
                     <a
-                      href="assets/img/portfolio/books-1.jpg"
+                      href="assets/img/certificates/go-green-policy.jpg"
                       title="Branding 1"
                       data-gallery="portfolio-gallery-book"
                       class="glightbox preview-link"
                       ><i class="bi bi-zoom-in"></i
                     ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                   
                   </div>
                 </div>
               </div>
@@ -966,26 +966,21 @@
               >
                 <div class="portfolio-content h-100">
                   <img
-                    src="assets/img/portfolio/app-2.jpg"
+                    src="assets/img/certificates/quality-policy.png"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="portfolio-info">
-                    <h4>App 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>Quality Policy</h4>
+                 
                     <a
-                      href="assets/img/portfolio/app-2.jpg"
+                      href="assets/img/certificates/quality-policy.png"
                       title="App 2"
                       data-gallery="portfolio-gallery-app"
                       class="glightbox preview-link"
                       ><i class="bi bi-zoom-in"></i
                     ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                
                   </div>
                 </div>
               </div>
@@ -996,210 +991,28 @@
               >
                 <div class="portfolio-content h-100">
                   <img
-                    src="assets/img/portfolio/product-2.jpg"
+                    src="assets/img/certificates/QualityPolicyTamil.jpg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="portfolio-info">
-                    <h4>Product 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>Quality Policy (Tamil)</h4>
+                  
                     <a
-                      href="assets/img/portfolio/product-2.jpg"
+                      href="assets/img/certificates/QualityPolicyTamil.jpg"
                       title="Product 2"
                       data-gallery="portfolio-gallery-product"
                       class="glightbox preview-link"
                       ><i class="bi bi-zoom-in"></i
                     ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                   
                   </div>
                 </div>
               </div>
               <!-- End Portfolio Item -->
 
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/branding-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Branding 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a
-                      href="assets/img/portfolio/branding-2.jpg"
-                      title="Branding 2"
-                      data-gallery="portfolio-gallery-branding"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/books-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Books 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a
-                      href="assets/img/portfolio/books-2.jpg"
-                      title="Branding 2"
-                      data-gallery="portfolio-gallery-book"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/app-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>App 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a
-                      href="assets/img/portfolio/app-3.jpg"
-                      title="App 3"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/product-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Product 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a
-                      href="assets/img/portfolio/product-3.jpg"
-                      title="Product 3"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/branding-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Branding 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a
-                      href="assets/img/portfolio/branding-3.jpg"
-                      title="Branding 2"
-                      data-gallery="portfolio-gallery-branding"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/books-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Books 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a
-                      href="assets/img/portfolio/books-3.jpg"
-                      title="Branding 3"
-                      data-gallery="portfolio-gallery-book"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
+          
+     
             </div>
             <!-- End Portfolio Container -->
           </div>
@@ -1211,13 +1024,14 @@
       <section id="team" class="team section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>CHECK OUR TEAM</p>
+          <h2>Engage & Involve Local Communities</h2>
+          <!-- <p>CHECK OUR TEAM</p> -->
         </div>
         <!-- End Section Title -->
 
         <div class="container">
           <div class="row gy-5">
+            <P>We have adopted the Government Aided Primary School. Akasampattu and are giving School bags, water bottles, Uniforms and Notebooks on an annual basis. From 2019 August we have also started providing morning breakfast to the school children. We provide Financial Assistance to the children of our Company Staff for School and College Education.</P>
             <div
               class="col-lg-4 col-md-6"
               data-aos="fade-up"
@@ -1226,7 +1040,7 @@
               <div class="member">
                 <div class="pic">
                   <img
-                    src="assets/img/team/team-1.jpg"
+                    src="assets/img/functions/CSR3-01.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -1234,12 +1048,12 @@
                 <div class="member-info">
                   <h4>Walter White</h4>
                   <span>Chief Executive Officer</span>
-                  <div class="social">
+                  <!-- <div class="social">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
                     <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -1253,7 +1067,7 @@
               <div class="member">
                 <div class="pic">
                   <img
-                    src="assets/img/team/team-2.jpg"
+                    src="assets/img/functions/CSR3-02.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -1261,12 +1075,12 @@
                 <div class="member-info">
                   <h4>Sarah Jhonson</h4>
                   <span>Product Manager</span>
-                  <div class="social">
+                  <!-- <div class="social">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
                     <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -1280,7 +1094,7 @@
               <div class="member">
                 <div class="pic">
                   <img
-                    src="assets/img/team/team-3.jpg"
+                    src="assets/img/functions/CSR3-03.jpg"
                     class="img-fluid"
                     alt=""
                   />
@@ -1288,12 +1102,12 @@
                 <div class="member-info">
                   <h4>William Anderson</h4>
                   <span>CTO</span>
-                  <div class="social">
+                  <!-- <div class="social">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
                     <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -1435,14 +1249,9 @@
             <a href="index.html" class="logo d-flex align-items-center me-auto">
               <img src="assets/img/dm-logo.png" alt="" />
             </a>
-            <div class="footer-contact pt-3">
-              <p>R.S 3/8 Mailam Road,</p>
-              <p>Sedarapet, Puducherry, India</p>
-              <p class="mt-3">
-                <strong>Phone:</strong> <span>+91-98946 20985</span>
-              </p>
-              <p><strong>Email:</strong> <span>sales@devmoulders.in</span></p>
-            </div>
+            <p>
+              Dev Moulders was established in the 1995 for the manufacture of Plastic Injection Moulded parts. The Company specilaizes in Engineering Plastics and has the technical capability for processing GF Nylon, PC, ABS, Polyacetal, PPS, PBT etc.</p>
+          
             <!-- <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -1452,54 +1261,39 @@
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Terms of service</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Privacy policy</a>
-              </li>
-            </ul>
+            <h4>Contact Us</h4>
+            <div class="footer-contact pt-3">
+              <p>R.S 3/8 Mailam Road,</p>
+              <p>Sedarapet, Puducherry, India</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+91-98946 20985</span>
+              </p>
+              <p><strong>Email:</strong> <span>sales@devmoulders.in</span></p>
+            </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
+            <h4>Our Products</h4>
+            <ul  class="pt-3">
               <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Web Design</a>
+                <i class="bi bi-chevron-right"></i> <a href="#">Plastic Moulded Parts</a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Web Development</a>
+                <a href="#">Wiring Harness</a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Product Management</a>
+                <a href="#">Power Cords</a>
               </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Marketing</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Graphic Design</a>
-              </li>
+            
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Social Media</h4>
             <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
               <a href=""><i class="bi bi-facebook"></i></a>
               <a href=""><i class="bi bi-instagram"></i></a>
               <a href=""><i class="bi bi-linkedin"></i></a>
@@ -1544,6 +1338,16 @@
     <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
+    <!-- Bootstrap JavaScript with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var myCarousel = new bootstrap.Carousel(document.getElementById('heroCarousel'), {
+          interval: 5000,
+          wrap: true
+        });
+      });
+    </script>
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
