@@ -13,3 +13,13 @@
     object-fit: cover; /* Ensures image fits inside the circle */
   }
   
+
+  .services .details {
+ 
+    margin: -40px 30px 0 30px;
+  }
+
+  .clients .client-logo img {
+   
+    max-width: 120%;
+  }
