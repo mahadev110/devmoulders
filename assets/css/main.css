@@ -262,7 +262,7 @@ h6 {
 
 .header .cta-btn,
 .header .cta-btn:focus {
-  color: var(--nav-dropdown-color);
+  color: var(--contrast-color);
   font-size: 13px;
   padding: 7px 25px;
   margin: 0 0 0 30px;
@@ -270,12 +270,13 @@ h6 {
   transition: 0.3s;
   text-transform: uppercase;
   border: 2px solid var(--accent-color);
+  background: var(--accent-color);
 }
 
 .header .cta-btn:hover,
 .header .cta-btn:focus:hover {
-  color: var(--contrast-color);
-  background: var(--accent-color);
+  color: var(--nav-dropdown-color);
+  background: #ffffff;
   border-color: var(--accent-color);
 }
 
