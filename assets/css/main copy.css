@@ -234,7 +234,7 @@ h6 {
   z-index: 997;
 } */
 .header {
-  --background-color: #ffffff; /* updated */
+  --background-color: rgba(21, 34, 43, 0.85); /* updated */
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -262,14 +262,14 @@ h6 {
 
 .header .cta-btn,
 .header .cta-btn:focus {
-  color: var(--nav-dropdown-color);
+  color: var(--contrast-color);
   font-size: 13px;
   padding: 7px 25px;
   margin: 0 0 0 30px;
   border-radius: 4px;
   transition: 0.3s;
   text-transform: uppercase;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--contrast-color);
 }
 
 .header .cta-btn:hover,
@@ -279,9 +279,6 @@ h6 {
   border-color: var(--accent-color);
 }
 
-.scrolled .header .cta-btn {
-  color: #ffffff;
-}
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
@@ -340,7 +337,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: #444444;
+    color: var(--nav-color);
     font-size: 13px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -384,7 +381,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    /* color: color-mix(in srgb, var(--nav-color) 90%, white 15%); */
+    color: color-mix(in srgb, var(--nav-color) 90%, white 15%);
   }
 
   .navmenu .dropdown ul {
@@ -442,12 +439,6 @@ h6 {
     left: -100%;
     visibility: visible;
   }
-
-  .scrolled .navmenu a {
-    color: #ffffff;
-
-}
-
 }
 
 /* Mobile Navigation */
