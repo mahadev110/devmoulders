@@ -8,7 +8,9 @@
 
 /*--------------------------------------------------------------
 # Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
+# Help: https://bootstrapma.hero:before {
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 70%);de.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
@@ -932,7 +934,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 40%);
   position: absolute;
   inset: 0;
   z-index: 2;
