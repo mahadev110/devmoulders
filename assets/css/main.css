@@ -974,6 +974,7 @@ section,
 
 .hero p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
+  /* color: #ffffff; */
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -1113,6 +1114,16 @@ section,
 }
 
 .services .details {
+  /* background: color-mix(in srgb, var(--surface-color), transparent 5%);
+  padding: 50px 30px;
+  margin: -100px 30px 0 30px;
+  transition: all ease-in-out 0.3s;
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1); */
+}
+.services .details {
   background: color-mix(in srgb, var(--surface-color), transparent 5%);
   padding: 50px 30px;
   margin: -100px 30px 0 30px;
@@ -1120,7 +1131,18 @@ section,
   position: relative;
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1); 
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-item .img img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .services .details .icon {
@@ -1340,6 +1362,7 @@ section,
 .services-2 .service-item:hover .title a {
   color: var(--accent-color);
 }
+
 
 /*--------------------------------------------------------------
 # Testimonials Section

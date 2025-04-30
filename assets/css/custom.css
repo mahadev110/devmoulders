@@ -34,3 +34,15 @@ color-mix(in srgb, var(--default-color), transparent 30%);
 color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+.hero-content-box {
+  background: rgba(21, 34, 43, 0.70)	; /* light background with slight transparency */
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* soft shadow */
+  /* max-width: 600px; */
+  margin: auto;
+}
+
+
+
