@@ -57,3 +57,21 @@ color-mix(in srgb, var(--default-color), transparent 30%);
   height: 100%;
   object-fit: cover; /* important: image will "cover" the box */
 }
+
+
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+}
+.whatsapp-float img {
+    /* border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); */
+    transition: transform 0.3s;
+}
+.whatsapp-float img:hover {
+    transform: scale(1.1);
+}
+
