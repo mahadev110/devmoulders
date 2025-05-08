@@ -4,14 +4,21 @@
 }
 
 .logo img {
-    border: 3px solid var(--nav-color);; /* White border */
-    border-radius: 50%; /* Makes the image circular */
-    padding: 2px; /* Optional: inner space between image and border */
+    /* border: 3px solid var(--nav-color);
+    border-radius: 50%;  
+    padding: 2px; */
     background-color: transparent;
-    width: 80px; /* Adjust width if needed */
-    height: 80px; /* Adjust height to match width for perfect circle */
-    object-fit: cover; /* Ensures image fits inside the circle */
+    width: 280px; 
+    height: 80px; 
+    /* object-fit: cover;  */
   }
+  
+/* For mobile view */
+@media (max-width: 768px) {
+  .logo img {
+    width: 200px; /* Mobile size */
+  }
+}
   
 
   .services .details {
@@ -73,5 +80,49 @@ color-mix(in srgb, var(--default-color), transparent 30%);
 }
 .whatsapp-float img:hover {
     transform: scale(1.1);
+}
+
+.footer-logo img {
+  filter: brightness(0) invert(1);
+  width: 280px; 
+}
+
+.logo img {
+  background-color: transparent;
+  width: 280px; /* Desktop view */
+}
+
+@media (max-width: 767px) {
+  .logo img {
+    width: 150px; /* Mobile view */
+  }
+}
+
+.logo-scrolled {
+  display: none;
+}
+
+/* When header is scrolled */
+.header.scrolled .logo-default {
+  display: none;
+}
+
+.header.scrolled .logo-scrolled {
+  display: block;
+}
+
+
+.industry-item {
+  background: #444444;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.industry-item:hover {
+  transform: translateY(-10px);
 }
 
