@@ -84,7 +84,7 @@ color-mix(in srgb, var(--default-color), transparent 30%);
 
 .footer-logo img {
   filter: brightness(0) invert(1);
-  width: 280px; 
+  width: 250px; 
 }
 
 .logo img {
