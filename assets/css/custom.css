@@ -126,3 +126,17 @@ color-mix(in srgb, var(--default-color), transparent 30%);
   transform: translateY(-10px);
 }
 
+.footer .footer-newsletter a {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .footer-newsletter a:hover {
+  color: var(--accent-color);
+}
+
+
+.scrolled .header .cta-btn:hover {
+    color: var(--nav-dropdown-color);
+}
