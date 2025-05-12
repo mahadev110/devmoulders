@@ -140,3 +140,37 @@ color-mix(in srgb, var(--default-color), transparent 30%);
 .scrolled .header .cta-btn:hover {
     color: var(--nav-dropdown-color);
 }
+
+
+/* Commodities Section */
+#commodities {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+#commodities .card {
+  background: #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#commodities .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+#commodities .card-img-top {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+
+#commodities .card-title {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #333;
+}
