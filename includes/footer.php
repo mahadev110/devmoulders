@@ -7,7 +7,7 @@
           <img src="assets/img/dm-logo-white.png" alt="" />
         </a>
         <p class="mt-3">
-          Dev Moulders was established in the 1995 for the manufacture of
+          Dev Moulders was established in the year 1995 for the manufacture of
           Plastic Injection Moulded parts. The Company specializes in
           Engineering Plastics and has the technical capability for
           processing GF Nylon, PC, ABS, Polyacetal, PPS, PBT etc.

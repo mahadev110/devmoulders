@@ -1,5 +1,9 @@
 <?php
+$page_title = "About Us - Dev Moulders";
+$meta_description = "Learn about Dev Moulders, a trusted manufacturer of high-quality plastic injection moulded parts, power cords, and wiring harnesses since 1995. We specialize in engineering plastics and customized moulding solutions.";
+$meta_keywords = "Dev Moulders, Plastic Injection Moulding, Power Cord Manufacturer, Insert Moulded Parts, Wiring Harness Manufacturer, Engineering Plastics, Custom Moulding Solutions";
 include('includes/header.php');
+
 $currentPage = 'aboutus';
 include('includes/navbar.php');
 $pageTitle = "About Us";
@@ -13,7 +17,7 @@ include('includes/breadcrumbs.php');
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <h3>Welcome to Dev Moulders</h3>
         <p>
-          Dev Moulders was established in the 1995 for the manufacture of
+          Dev Moulders was established in the year 1995 for the manufacture of
           Plastic Injection Moulded parts. The Company specializes in
           Engineering Plastics and has the technical capability for
           processing GF Nylon, PC, ABS, Polyacetal, PPS, PBT etc.
@@ -80,7 +84,7 @@ include('includes/breadcrumbs.php');
           <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
             <h3>Strong Leadership and Dedicated Teams</h3>
             <p class="fst-italic">
-              The company is managed by R Sivaram who has completed his
+              The Managing Director, R Sivaram has completed his
               Mechanical Engineering from B.I.T.S, Pilani and has 40 years
               of work experience in Engineering Industry. Prior to
               establishing this company in 1995 he has worked in TVS
@@ -215,8 +219,7 @@ include('includes/breadcrumbs.php');
       <p>
         We have adopted the Government Aided Primary School. Akasampattu
         and are giving School bags, water bottles, Uniforms and Notebooks
-        on an annual basis. From 2019 August we have also started
-        providing morning breakfast to the school children. We provide
+        on an annual basis. We provide
         Financial Assistance to the children of our Company Staff for
         School and College Education.
       </p>

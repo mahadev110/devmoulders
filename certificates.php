@@ -1,5 +1,9 @@
 <?php
+$page_title = "Dev Moulders - ISI Certificate";
+$meta_description = "View Dev Moulders' certifications, including ISI certification for power cords and compliance with quality standards. Our policies reflect our commitment to excellence and customer satisfaction.";
+$meta_keywords = "ISI Certified Power Cords, Certification, Company Policies, Quality Assurance, BIS Certified Products, Dev Moulders Certifications, Compliance Standards";
 include('includes/header.php');
+
 $currentPage = 'certificates';
 include('includes/navbar.php');
 $pageTitle = "Certificates & Policies";

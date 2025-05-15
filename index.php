@@ -13,7 +13,7 @@ include('includes/slider.php');
           <h3>Welcome to Dev Moulders</h3>
           <img src="assets/img/01about.jpg" class="img-fluid rounded-4 mb-4" alt="" />
           <p>
-            Dev Moulders was established in the 1995 for the manufacture of
+            Dev Moulders was established in the year 1995 for the manufacture of
             Plastic Injection Moulded parts. The Company specializes in
             Engineering Plastics and has the technical capability for
             processing GF Nylon, PC, ABS, Polyacetal, PPS, PBT etc.
@@ -128,7 +128,7 @@ include('includes/slider.php');
               <div class="icon">
                 <i class="bi bi-box-seam"></i>
               </div>
-              <a href="plastic_moulded.html" class="stretched-link">
+              <a href="plastic_moulded" class="stretched-link">
                 <h3>Plastic Moulded Parts</h3>
               </a>
               <p>
@@ -148,7 +148,7 @@ include('includes/slider.php');
               <div class="icon">
                 <i class="bi bi-diagram-3"></i>
               </div>
-              <a href="wiring_harness.html" class="stretched-link">
+              <a href="wiring_harness" class="stretched-link">
                 <h3>Wiring Harness</h3>
               </a>
               <p>
@@ -169,7 +169,7 @@ include('includes/slider.php');
               <div class="icon">
                 <i class="bi bi-plug"></i>
               </div>
-              <a href="power_cord.html" class="stretched-link">
+              <a href="power_cord" class="stretched-link">
                 <h3>Power Cords</h3>
               </a>
               <p>
@@ -191,7 +191,7 @@ include('includes/slider.php');
                 <i class="bi bi-tools"></i>
                 <!-- You can choose any suitable icon -->
               </div>
-              <a href="tools_dies.html" class="stretched-link">
+              <a href="tools_dies" class="stretched-link">
                 <h3>Tools and Dies</h3>
               </a>
               <p>
@@ -207,7 +207,7 @@ include('includes/slider.php');
   <!-- /Services Section -->
 
   <!-- Clients Section -->
-  <section id="clients" class="clients section light-background">
+  <section id="clients" class="clients section light-background mt-5">
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Our Clients</h2>
@@ -281,8 +281,8 @@ include('includes/slider.php');
         <!-- Customized Design -->
         <div class="tab-pane fade active show" id="features-tab-1">
           <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Tailored Engineering Solutions for Every Requirement</h3>
+            <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3 class="mt-5">Tailored Engineering Solutions for Every Requirement</h3>
               <p class="fst-italic">
                 We specialize in custom designs for plastic moulded
                 components, power cords, and wiring harnesses, crafted to
@@ -310,7 +310,7 @@ include('includes/slider.php');
                 production efficiently.
               </p>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
               <img src="assets/img/features01.jpg" class="img-fluid" alt="Customized Design" />
             </div>
           </div>
@@ -319,8 +319,8 @@ include('includes/slider.php');
         <!-- Technology Improvement -->
         <div class="tab-pane fade" id="features-tab-2">
           <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Driven by Precision and Innovation</h3>
+            <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3 class="mt-5">Driven by Precision and Innovation</h3>
               <p class="fst-italic">
                 We continuously upgrade our machinery and processes to
                 deliver world-class manufacturing services.
@@ -345,7 +345,7 @@ include('includes/slider.php');
                 growth.
               </p>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
               <img src="assets/img/features02.jpg" class="img-fluid" alt="Technology Improvement" />
             </div>
           </div>
@@ -354,8 +354,8 @@ include('includes/slider.php');
         <!-- Quality Inspection -->
         <div class="tab-pane fade" id="features-tab-3">
           <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Ensuring Excellence with Every Component</h3>
+            <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3 class="mt-2">Ensuring Excellence with Every Component</h3>
               <p class="fst-italic">
                 Quality is embedded into our workflow, starting from raw
                 material testing to final product validation.
@@ -379,7 +379,7 @@ include('includes/slider.php');
                 batch meets regulatory standards and customer satisfaction.
               </p>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
               <img src="assets/img/features05.jpg" class="img-fluid" alt="Quality Inspection" />
             </div>
           </div>
@@ -388,8 +388,8 @@ include('includes/slider.php');
         <!-- 7/24 Service -->
         <div class="tab-pane fade" id="features-tab-4">
           <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-              <h3>Always Available, Always Reliable</h3>
+            <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+              <h3 class="mt-2">Always Available, Always Reliable</h3>
               <p class="fst-italic">
                 We believe in being responsive and accessible to our
                 customers at all times.
@@ -413,7 +413,7 @@ include('includes/slider.php');
                 partnerships and trust with clients across industries.
               </p>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <div class="col-lg-4 order-1 order-lg-2 text-center">
               <img src="assets/img/features06.jpg" class="img-fluid" alt="7/24 Service" />
             </div>
           </div>

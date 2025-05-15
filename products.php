@@ -1,5 +1,9 @@
 <?php
+$page_title = "Dev Moulders - Products";
+$meta_description = "Explore Dev Moulders' range of products including precision plastic moulded parts, custom wiring harnesses, certified power cords, and high-quality tools and dies. Trusted solutions for industrial and commercial needs.";
+$meta_keywords = "Plastic Moulded Parts, Wiring Harness, Power Cords, Tools and Dies, Plastic Components, Custom Moulding, Electrical Wiring Solutions, Power Cable Manufacturer, Moulding Tools, Die Manufacturing";
 include('includes/header.php');
+
 $currentPage = 'products';
 include('includes/navbar.php');
 $pageTitle = "Products";
@@ -35,7 +39,7 @@ include('includes/breadcrumbs.php');
                   <div class="icon">
                     <i class="bi bi-box-seam"></i>
                   </div>
-                  <a href="plastic_moulded.html" class="stretched-link">
+                  <a href="plastic_moulded" class="stretched-link">
                     <h3>Plastic Moulded Parts</h3>
                   </a>
                   <p>
@@ -63,7 +67,7 @@ include('includes/breadcrumbs.php');
                   <div class="icon">
                     <i class="bi bi-diagram-3"></i>
                   </div>
-                  <a href="wiring_harness.html" class="stretched-link">
+                  <a href="wiring_harness" class="stretched-link">
                     <h3>Wiring Harness</h3>
                   </a>
                   <p>
@@ -92,7 +96,7 @@ include('includes/breadcrumbs.php');
                   <div class="icon">
                     <i class="bi bi-plug"></i>
                   </div>
-                  <a href="power_cord.html" class="stretched-link">
+                  <a href="power_cord" class="stretched-link">
                     <h3>Power Cords</h3>
                   </a>
                   <p>
@@ -122,7 +126,7 @@ include('includes/breadcrumbs.php');
                     <i class="bi bi-tools"></i>
                     <!-- You can choose any suitable icon -->
                   </div>
-                  <a href="tools_dies.html" class="stretched-link">
+                  <a href="tools_dies" class="stretched-link">
                     <h3>Tools and Dies</h3>
                   </a>
                   <p>

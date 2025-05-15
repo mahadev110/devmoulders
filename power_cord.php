@@ -1,5 +1,9 @@
 <?php
+$page_title = "Dev Moulders - Products";
+$meta_description = "Explore Dev Moulders' range of products including precision plastic moulded parts, custom wiring harnesses, certified power cords, and high-quality tools and dies. Trusted solutions for industrial and commercial needs.";
+$meta_keywords = "Plastic Moulded Parts, Wiring Harness, Power Cords, Tools and Dies, Plastic Components, Custom Moulding, Electrical Wiring Solutions, Power Cable Manufacturer, Moulding Tools, Die Manufacturing";
 include('includes/header.php');
+
 $currentPage = 'power_cord';
 include('includes/navbar.php');
 $pageTitle = "Power Cords";
@@ -12,10 +16,10 @@ include('includes/breadcrumbs.php');
           <div class="row gy-4">
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div class="services-list">
-                <a href="plastic_moulded.html">Plastic Moulded Parts</a>
-                <a href="wiring_harness.html" >Wiring Harness</a>
-                <a href="power_cord.html" class="active">Power Cords</a>
-                <a href="tools_dies.html">Tools and Dies</a>
+                <a href="plastic_moulded">Plastic Moulded Parts</a>
+                <a href="wiring_harness" >Wiring Harness</a>
+                <a href="power_cord" class="active">Power Cords</a>
+                <a href="tools_dies">Tools and Dies</a>
               </div>
             </div>
 

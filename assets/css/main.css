@@ -1199,7 +1199,7 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .clients .client-logo {

@@ -1,7 +1,7 @@
 <body class="index-page">
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
-            <a href="index.html" class="logo d-flex align-items-center me-auto">
+            <a href="index" class="logo d-flex align-items-center me-auto">
                 <img src="assets/img/dm-logo3.png" alt="" class="logo-default" />
                 <img src="assets/img/dm-logo-white.png" alt="" class="logo-scrolled" />
             </a>
