@@ -33,6 +33,15 @@
   );
   */
 
+  $contact->smtp = array(
+  'host' => 'devmoulders.in', // Outgoing Server
+  'username' => 'sales@devmoulders.in', // Full email address
+  'password' => 'Devlogin1*',  // Set this to the password you created in cPanel for the email account
+  'port' => '465',
+  'encryption' => 'ssl' // Use 'tls' only if using port 587
+
+);
+
   $contact->add_message( $_POST['email'], 'Email');
 
   echo $contact->send();

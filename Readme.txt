@@ -22,3 +22,12 @@ Engage & Involve
 contact
 <meta name="description" content="Get in touch with Dev Moulders for custom plastic moulded parts, power cords, wiring harness, and tool & die solutions. Reach out to us for inquiries, support, or business partnerships." />
 <meta name="keywords" content="Contact Dev Moulders, Plastic Components Manufacturer, Wiring Harness Inquiries, Power Cord Manufacturer, Plastic Moulding Solutions, Business Enquiries, Dev Moulders Contact" />
+
+
+// SMTP Settings
+  // // for local gmail 
+  // 'host' => 'smtp.gmail.com',
+  // 'username' => 'magadev110@gmail.com',
+  // 'password' => 'andd liwd uems gapb',
+  // 'port' => '587',
+  // 'encryption' => 'tls'
