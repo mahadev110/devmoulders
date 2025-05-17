@@ -49,7 +49,6 @@ include('includes/breadcrumbs.php');
           <div class="col-lg-12">
 
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-
               data-aos-delay="200">
 
               <i class="bi bi-geo-alt"></i>
@@ -75,7 +74,6 @@ include('includes/breadcrumbs.php');
           <div class="col-md-6">
 
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-
               data-aos-delay="300">
 
               <i class="bi bi-telephone"></i>
@@ -97,7 +95,6 @@ include('includes/breadcrumbs.php');
           <div class="col-md-6">
 
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-
               data-aos-delay="400">
 
               <i class="bi bi-envelope"></i>
@@ -233,11 +230,8 @@ include('includes/breadcrumbs.php');
                 ">
 
           <iframe
-
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.537526930068!2d79.74865439999999!3d12.0064695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53677380f6aa07%3A0xf2b0e1d2e90b85ae!2sDEV%20MOULDERS!5e0!3m2!1sen!2sin!4v1746303215098!5m2!1sen!2sin"
-
             width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
-
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
@@ -254,6 +248,42 @@ include('includes/breadcrumbs.php');
 
 </main>
 
-
+ <script>
+        $(document).ready(function() {
+            $('.php-email-form').submit(function(e) {
+                e.preventDefault();
+                
+                var form = $(this);
+                var url = form.attr('action');
+                var formData = form.serialize();
+                
+                $('.loading').show();
+                $('.error-message').hide();
+                $('.sent-message').hide();
+                
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: formData,
+                    dataType: 'json',
+                    success: function(response) {
+                        $('.loading').hide();
+                        
+                        if(response.success) {
+                            $('.sent-message').show();
+                            form[0].reset(); // Reset the form fields
+                        } else {
+                            $('.error-message').html(response.message).show();
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        $('.loading').hide();
+                        $('.error-message').html("There was an error sending your message. Please try again later.").show();
+                        console.log(xhr.responseText);
+                    }
+                });
+            });
+        });
+    </script>
 
 <?php include('includes/footer.php'); ?>
